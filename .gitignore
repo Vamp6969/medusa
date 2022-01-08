@@ -2,6 +2,7 @@
 
 # dependencies
 /node_modules
+package-lock.json
 /.pnp
 .pnp.js
 
@@ -38,5 +39,3 @@ yarn-error.log*
 
 # credentials
 config.js
-
-
