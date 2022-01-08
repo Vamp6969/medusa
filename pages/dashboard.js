@@ -1,6 +1,4 @@
-import Image from "next/image"
 import Head from "next/head"
-import config from "../config"
 import Navbar from "../components/navbar"
 import styles from "../styles/dashboard.module.css"
 
@@ -29,7 +27,7 @@ let page = ({props}) => {
                             <i className="" />
                         </div>
                         <div class="text-right">
-                            <p class="text-2xl">{commas(1024)} MB</p>
+                            <p class="text-2xl">1024 MB</p>
                             <p>Memory (RAM)</p>
                         </div>
                     </div>
